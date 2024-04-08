@@ -1,5 +1,7 @@
 # About aws-mwaa-local-runner
 
+Docker Image: https://hub.docker.com/repository/docker/iwillprevail/mwaa-local-2_8-rpi/general
+
 This repository provides a command line interface (CLI) utility that replicates an Amazon Managed Workflows for Apache Airflow (MWAA) environment locally.
 
 *Please note: MWAA/AWS/DAG/Plugin issues should be raised through AWS Support or the Airflow Slack #airflow-aws channel.  Issues here should be focused on this local-runner repository.*
