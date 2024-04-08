@@ -3,8 +3,7 @@
 # DESCRIPTION: Amazon MWAA Local Dev Environment
 # BUILD: docker build --rm -t amazon/mwaa-local .
 
-FROM amazonlinux:2023
-LABEL maintainer="amazon"
+FROM fedora:latest
 
 # Airflow
 ## Version specific ARGs

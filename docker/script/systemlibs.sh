@@ -8,7 +8,9 @@ dnf install -y python3 gcc gcc-g++ python3-devel
 
 # JDBC and PyODBC dependencies
 # openjdk is required for JDBC to work with Airflow
-dnf install -y java-17-amazon-corretto unixODBC-devel 
+curl -LO https://corretto.aws/downloads/latest/amazon-corretto-17-aarch64-linux-jdk.rpm
+dnf install -y amazon-corretto-17-aarch64-linux-jdk.rpm
+dnf install -y unixODBC-devel
 
 # Database clients
 dnf install -y postgresql-devel
